@@ -1,0 +1,32 @@
+.neon-button {
+  background-color: transparent;
+  border: 2px solid #C2B280;
+  color: #C2B280;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 18px;
+  padding: 12px 28px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 0 6px rgba(194, 178, 128, 0.4),
+              0 0 12px rgba(194, 178, 128, 0.2) inset;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.neon-button:hover {
+  background-color: rgba(194, 178, 128, 0.05);
+  box-shadow: 0 0 10px rgba(194, 178, 128, 0.6),
+              0 0 20px rgba(194, 178, 128, 0.3) inset;
+  color: #EDE6D6;
+  border-color: #EDE6D6;
+}
+
+.neon-button:active {
+  transform: scale(0.96);
+  box-shadow: 0 0 14px rgba(194, 178, 128, 0.8),
+              0 0 28px rgba(194, 178, 128, 0.5) inset;
+}
