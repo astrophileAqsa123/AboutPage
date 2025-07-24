@@ -10,9 +10,10 @@ function AboutPage() {
      <ProfileImage />
      <div id='img'>
       <AboutIntro />
-      <AboutContent />
+     
       </div>
-    </section></>
+    </section>
+     <AboutContent /></>
       
     
   );
